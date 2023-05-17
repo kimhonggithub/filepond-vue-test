@@ -71,7 +71,7 @@ const form = useForm({
                     class-name="my-pond"
                     label-idle="Drop files here..."
                     allow-multiple="true"
-                    accepted-file-types="image/jpeg, image/png"
+                    accepted-file-types="application/pdf"
                     :files="files"
                     :server="{
                         process: '/upload',
